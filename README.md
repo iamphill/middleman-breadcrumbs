@@ -27,6 +27,18 @@ This gem has two configuration options, which are set in the [usual way for Midd
   <dd>
     Tag name (as a symbol) in which to wrap each breadcrumb level. Default is <code>nil</code>, which means no wrapping.
   </dd>
+  <dt>
+    <code>:hide_home</code>
+  </dt>
+  <dd>
+    Hide the homepage link. Default is <code>false</code>.
+  </dd>
+  <dt>
+    <code>:convert_last</code>
+  </dt>
+  <dd>
+    Convert the final page into a hyperlink. Default is <code>true</code>.
+  </dd>
 </dl>
 
 For example, if you wanted to wrap the breadcrumb levels in `<li>` elements and separate them with bullets, you would put the following in `config.rb`:
