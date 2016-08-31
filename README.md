@@ -34,7 +34,7 @@ This gem has two configuration options, which are set in the [usual way for Midd
     Hide the homepage link. Default is <code>false</code>.
   </dd>
   <dt>
-    <code>:convert_last</code>
+    <code>:link_last</code>
   </dt>
   <dd>
     Convert the final page into a hyperlink. Default is <code>true</code>.
